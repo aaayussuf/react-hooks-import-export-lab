@@ -1,11 +1,13 @@
-import React from "react";
+import { username, city } from "../data/user";
 
 function Home() {
   return (
-    <div id="home">
+    <div>
       <h1>
-        {username} is a Web Developer from {city}
+        Welcome to {username}'s portfolio from {city}!
       </h1>
     </div>
   );
 }
+
+export default Home;
